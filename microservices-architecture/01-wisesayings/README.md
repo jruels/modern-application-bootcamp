@@ -169,7 +169,7 @@ new Katacoda playground
 
 **Step 2:** Clone this GitHub Repository
 
-`git clone https://github.com/reselbob/innosoft.git`
+`git clone https://github.com/GeorgeNiece/innosoft.git`
 
 **Step 3:** Navigate to the exercise folder
 
