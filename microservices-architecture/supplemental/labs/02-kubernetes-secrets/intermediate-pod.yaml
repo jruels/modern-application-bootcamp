@@ -22,7 +22,7 @@ spec:
             secretKeyRef:
               key: X_SECRET
               name: yoursecrets
-      image: reselbob/pinger:v2.4
+      image: georgeniece/pinger:v2.4
       imagePullPolicy: Always
       name: pinger-secrets
       ports:

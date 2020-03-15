@@ -1,1 +1,1 @@
-docker build -t reselbob/echocolor:v0.1 .
+docker build -t georgeniece/echocolor:v0.1 .

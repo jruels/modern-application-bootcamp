@@ -9,7 +9,7 @@ routing information.
 
 **Step 2:** Clone this GitHub Repository
 
-`git clone https://github.com/reselbob/innosoft.git`
+`git clone https://github.com/GeorgeNiece/innosoft.git`
 
 **Step 3:** Navigate to the lab folder
 
@@ -139,7 +139,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: reselbob/istiocode:v0.1
+        image: georgeniece/istiocode:v0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
@@ -160,7 +160,7 @@ env:
   value: "http://business/"
 ```
 We're particularly  interested in the environment variable, `UPSTREAM_URI`. It's a custom environment variable and special
-to the logic in the the application code stored in the Docker image, `reselbob/istiocode:v0.1`. The environment variable, `UPSTREAM_URI` tells
+to the logic in the the application code stored in the Docker image, `georgeniece/istiocode:v0.1`. The environment variable, `UPSTREAM_URI` tells
 the application the location of the web server that is running the business application logic, which in this case will
 be found at `http://business/`.
 

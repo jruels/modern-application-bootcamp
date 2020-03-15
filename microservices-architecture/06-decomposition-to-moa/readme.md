@@ -20,7 +20,7 @@ interactive learning environment in which the installation process is taking pla
 
 ## Monolithic version of Fortune Cookies
 
-You can find the monolithic version of `Fortune Cookies` [here](https://github.com/reselbob/fortune-cookies/tree/master/monolith),
+You can find the monolithic version of `Fortune Cookies` [here](https://github.com/GeorgeNiece/fortune-cookies/tree/master/monolith),
 along with source code and execution instructions.
 
 ## Synchronous MOA version of Fortune Cookies

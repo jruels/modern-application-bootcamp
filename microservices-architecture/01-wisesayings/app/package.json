@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://reselbob@github.com/reselbob/wisesayings.git"
+    "url": "git+https://GeorgeNiece@github.com/GeorgeNiece/wisesayings.git"
   },
-  "author": "reselbob",
+  "author": "GeorgeNiece",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/reselbob/wisesayings/issues"
+    "url": "https://github.com/GeorgeNiece/wisesayings/issues"
   },
-  "homepage": "https://github.com/reselbob/wisesayings#readme"
+  "homepage": "https://github.com/GeorgeNiece/wisesayings#readme"
 }

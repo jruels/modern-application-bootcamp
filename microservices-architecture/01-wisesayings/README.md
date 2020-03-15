@@ -18,7 +18,7 @@ on a Ubuntu virtual machine on Katacoda.
 
 **Step 2:** Clone this GitHub Repository
 
-`git clone https://github.com/reselbob/innosoft.git`
+`git clone https://github.com/GeorgeNiece/innosoft.git`
 
 **Step 3:** Navigate to the exercise folder
 
@@ -51,7 +51,7 @@ container](https://www.docker.com/resources/what-container) from within the Kata
 
 Using the code clones from the GitHub repository
 
-`git clone https://github.com/reselbob/innosoft.git`
+`git clone https://github.com/GeorgeNiece/innosoft.git`
 
 In directory:
 
@@ -79,20 +79,20 @@ image.
 
 **Step 2:** Build the image
 
-`docker build -t reselbob/wisesayings:beta .`
+`docker build -t georgeniece/wisesayings:beta .`
 
 **WHERE**
 
 * `docker` is the command to issue subcommands to the Docker client
 * `build` is the subcommand that indicates we're going to create a container image
-* `-t reselbob/wisesayings:beta` is the option that indicates the tag name we're assigning
-to the container image, in this case, `reselbob/wisesayings:beta`
+* `-t georgeniece/wisesayings:beta` is the option that indicates the tag name we're assigning
+to the container image, in this case, `georgeniece/wisesayings:beta`
 * `.` (a period) indicates the Dockerfile can be found in the current directory (aka folder)
 
 **Step 3:** Create the container using [`docker run`](https://docs.docker.com/engine/reference/commandline/run/), giving
  the container the name, `wisesayings`
 
-`docker run -d --name wisesayings -p 3000:3000 reselbob/wisesayings:beta`
+`docker run -d --name wisesayings -p 3000:3000 georgeniece/wisesayings:beta`
 
 **WHERE**
 
@@ -102,7 +102,7 @@ to the container image, in this case, `reselbob/wisesayings:beta`
 in this case, `wisesayings`
 * `-p 3000:3000 ` is the option that indicate the binding of the host port to the container's port,
 in this case the host port `3000` will be bound to the container's port `3000`
-* `reselbob/wisesayings:beta` is the name of the container image upon which the container we're creating
+* `georgeniece/wisesayings:beta` is the name of the container image upon which the container we're creating
 will be based
 
 When you execute `docker run` you'll get unique ID of the container you've just created, like so:
@@ -135,7 +135,7 @@ running
 
 **Step 6:** Delete the image using the command, [`docker rmi`](https://docs.docker.com/engine/reference/commandline/rmi/)
 
-`docker rmi -f reselbob/wisesayings:beta`
+`docker rmi -f georgeniece/wisesayings:beta`
 
 **WHERE**
 
@@ -143,12 +143,12 @@ running
 * `rmi` is the subcommand to delete a container image
 * `-f` is the option to indicates a force delete, that the container image will be
 deleted even if it's associated with an existing container
-* `reselbob/wisesayings:beta` is the name of the container image to delete
+* `georgeniece/wisesayings:beta` is the name of the container image to delete
 
 You'll get output similar to the following:
 
 ```text
-Untagged: reselbob/wisesayings:beta
+Untagged: georgeniece/wisesayings:beta
 Deleted: sha256:13b4f927621350c68e0cc08db1b01f26162672cc9ee140f9b968306b0c491e75
 Deleted: sha256:f350acf1fd5de59253cc87369ec5f0891b616c85e31c2400966718e5321285b2
 Deleted: sha256:62770cdf1499f3a7084354a3977b4c0c4995ea1aeed7b61ec3d51ab155586c89
@@ -169,7 +169,7 @@ new Katacoda playground
 
 **Step 2:** Clone this GitHub Repository
 
-`git clone https://github.com/reselbob/innosoft.git`
+`git clone https://github.com/GeorgeNiece/innosoft.git`
 
 **Step 3:** Navigate to the exercise folder
 

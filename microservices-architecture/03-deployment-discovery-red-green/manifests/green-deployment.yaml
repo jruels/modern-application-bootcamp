@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: echocolor-green
-          image: reselbob/echocolor:v0.1
+          image: georgeniece/echocolor:v0.1
           ports:
             -
               containerPort: 3000

@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: reselbob/istiocode:v0.1
+        image: georgeniece/istiocode:v0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
@@ -36,7 +36,7 @@ spec:
     spec:
       containers:
       - name: business
-        image: reselbob/istiocode:v0.1
+        image: georgeniece/istiocode:v0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
