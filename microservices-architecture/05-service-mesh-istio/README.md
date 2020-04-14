@@ -122,6 +122,10 @@ the following command
 
 `kubectl get svc -n istio-system`
 
+or more specifically 
+
+`kubectl get svc -n istio-system | grep ingress`
+
 Save the IP address of `istio-ingressgateway`. You'll need it
 
 **Step 11:** Enter the IP address of `istio-ingressgateway` into the address bar of your computer's browser.
