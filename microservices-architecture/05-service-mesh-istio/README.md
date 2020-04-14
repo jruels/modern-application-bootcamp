@@ -86,7 +86,6 @@ kiali-68677d47d7-d9zkg                    1/1     Running     0          2m41s
 prometheus-5977597c75-9zwcm               1/1     Running     0          2m40s
 ```
 
-# Setting Up An Istio Enabled Set of Services
 
 ## Set Istio to bind to all pods in the namespace, `default`
 
@@ -97,6 +96,13 @@ execute the following command:
 
 
 ## Install Istio-ized Multi-deployment Application
+# Setting Up An Istio Enabled Set of Services
+
+**Application Retrieval:** To test our environment we want to grab our Istio-ized Application
+
+`cd ~`
+`git clone https://github.com/reselbob/k8sdemos.git`
+`cd k8sdemos/service-mesh`
 
 **Step 9:** To create the deployments for the Istio-ized Multi-deployment Application, execute
 the following command
