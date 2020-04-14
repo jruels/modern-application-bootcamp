@@ -101,7 +101,9 @@ execute the following command:
 **Application Retrieval:** To test our environment we want to grab our Istio-ized Application
 
 `cd ~`
+
 `git clone https://github.com/reselbob/k8sdemos.git`
+
 `cd k8sdemos/service-mesh`
 
 **Step 9:** To create the deployments for the Istio-ized Multi-deployment Application, execute
